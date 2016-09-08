@@ -17,11 +17,17 @@ def equalSpacedCoordinates(n, a, b):
         coorList.append(x)
     print(coorList)
 
-#these lines take in user input to be fed into the function 
-steps = int(raw_input("Please enter the number of steps you'd like: "))
-startInterval = float(raw_input("Please enter the beginning of the interval: "))
-endInterval = float(raw_input("Please enter the end of the interval: "))
+#these lines take in user input to be fed into the function
+def main():
+    """ the main method.  """
+    steps = int(raw_input("Please enter the number of steps you'd like: "))
+    startInterval = float(raw_input("Please enter the beginning of the interval: "))
+    endInterval = float(raw_input("Please enter the end of the interval: "))
 
-equalSpacedCoordinates(steps, startInterval, endInterval)
+    equalSpacedCoordinates(steps, startInterval, endInterval)
+
+if __name__ == "__main__":
+    #from sys import argv
+    main()
 
 
