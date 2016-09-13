@@ -17,6 +17,13 @@ def equalSpacedCoordinates(n, a, b):
         coorList.append(x)
     print(coorList)
 
+def test_equalSpacedCoordinates():
+    """Function following nosetest procedure to test the equalSpacedCoordinates function """
+    eqSpacedList = [0.0, 0.25, 0.5, 0.75]
+    function = equalSpacedCoordinates(4,0,1)
+    if function == eqSpacedList:
+        assert True
+       
 #these lines take in user input to be fed into the function
 def main():
     """ the main method.  """
