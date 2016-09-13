@@ -26,8 +26,10 @@ def pathlength(x, y):
         return pl
 
 def test_pathlength():
+    """Function for testing the pathlength formula"""
     x=[1,3]
     y=[2,4]
-    return pathlength(x,y)
+    if(pathlength(x,y) == 2*math.sqrt(2))
+        assert True 
 
-print test_pathlength()
+
