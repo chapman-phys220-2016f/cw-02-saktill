@@ -15,7 +15,7 @@ def equalSpacedCoordinates(n, a, b):
     for i in range(n): #this loop calculates all the values in the list that it will output
         x += h
         coorList.append(x)
-    print(coorList)
+    return(coorList)
 
 def test_equalSpacedCoordinates():
     """Function following nosetest procedure to test the equalSpacedCoordinates function """
@@ -31,7 +31,7 @@ def main():
     startInterval = float(raw_input("Please enter the beginning of the interval: "))
     endInterval = float(raw_input("Please enter the end of the interval: "))
 
-    equalSpacedCoordinates(steps, startInterval, endInterval)
+    print equalSpacedCoordinates(steps, startInterval, endInterval)
 
 if __name__ == "__main__":
     #from sys import argv
