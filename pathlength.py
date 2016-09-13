@@ -29,7 +29,16 @@ def test_pathlength():
     """Function for testing the pathlength formula"""
     x=[1,3]
     y=[2,4]
-    if(pathlength(x,y) == 2*math.sqrt(2))
+    if(pathlength(x,y) == 2*math.sqrt(2)):
         assert True 
 
+def main():
+    """function for implementing pathlength"""
+    #found this next list comeprehension on Stack Overflow. Takes user input and appends it to a list.
+    print("Please input the same number of x coordinates as y coordinates")
+    x = [int(n) for n in raw_input("Enter numbers for x coordinates. Leave spaces inbetween each entry: ").split()]
+    y = [int(n) for n in raw_input("Enter numbers for y coordinates. Leave spaces inbetween each entry: ").split()]
+    path = pathlength(x,y)
+    print "The pathlength for this n-dimensional vector is: ", path
 
+main()
