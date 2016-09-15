@@ -41,4 +41,5 @@ def main():
     path = pathlength(x,y)
     print "The pathlength for this n-dimensional vector is: ", path
 
-main()
+if __name__ == "__main__":
+    main()
