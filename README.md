@@ -24,6 +24,10 @@ Analyze in this section what you found useful about this assignment in your own 
 
 **CHANGEME**
 
+## INSTRUCTOR COMMENTS
+
+Be sure to actually complete your assignments. You still need to edit the Travis image, add an assessment, and properly sign the README, in addition to finishing the classwork and notebook. 
+
 ## Honor Pledge
 
 I pledge that all the work in this repository is my own with only the following exceptions:
