@@ -41,3 +41,11 @@ def test_kinematics():
 
 print test_kinematics()
 
+### INSTRUCTOR COMMENTS
+#
+# If you are having trouble or are stuck, come into office hours, or ask
+# questions via Slack, or ask your colleagues for assistance.
+#
+# If I don't hear that you are having this much trouble, then I will assume
+# that everything is going well.  Start earlier if you simply ran out of time
+# here.
