@@ -38,3 +38,29 @@ if __name__ == "__main__":
     main()
 
 
+### INSTRUCTOR COMMENTS
+#
+# Remember the python style convention that you should have no more than
+# 80 characters per line. You can format your function docstrings over
+# multiple lines. Format them so that they are easy to read and useful.
+# For pointers, you can call "help(function)" on any python function in
+# a python interpreter (ipython on the command line). You should try to
+# model your own docstrings to match those of existing python functions.
+#
+# Use xrange instead of range when possible. xrange is a generator so it
+# only stores the algorithm for generating the next integer as needed.
+# range returns a full list, which takes up space in memory if you don't
+# need it.
+#
+# If you are using list.append(item), consider rephrasing your algorithm
+# as a list comprehension if possible. For example:
+#   l = [a + i*h for i in xrange(n)]
+#
+# When creating intervals, decide whether you wish to include the endpoints
+# or not. Indicate your choice clearly in the docstring. You want to follow
+# the "principle of least surprise" for users who want to use your code.
+#
+# The function "assert" takes a Boolean test. Thus you should just do
+#   assert function == eqSpacedList
+#
+# 

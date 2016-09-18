@@ -27,6 +27,7 @@ def test_kinematics():
     with x_i=Vt_i, where V is some constant. In this test, V=6. """
     dt=1E-6
     V=6
+<<<<<<< HEAD
     x = []
     for i in range(int(10.0E-6/dt)+4):
         # adds position values into x[]; splits a certain time range into
@@ -34,3 +35,23 @@ def test_kinematics():
         x.append(V*i*dt)
     return (kinematics(x, int(5.0E-6)), kinematics(x, int(10.0E-6/dt)))
     assert True
+=======
+
+    for i in range(int(.06/dt)+7):
+        x.append(V*i)
+
+    print(x)
+    #return kinematics(x, int(.5/dt)), kinematics(x, int(1.5/dt))
+    
+
+print test_kinematics()
+
+### INSTRUCTOR COMMENTS
+#
+# If you are having trouble or are stuck, come into office hours, or ask
+# questions via Slack, or ask your colleagues for assistance.
+#
+# If I don't hear that you are having this much trouble, then I will assume
+# that everything is going well.  Start earlier if you simply ran out of time
+# here.
+>>>>>>> 26f9c8fbb1b42435e83a8265981663f65ceac658
