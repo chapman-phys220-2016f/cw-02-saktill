@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import math
+
 """Given recorded GPS coordinates, sets for x and t: will compute the 
 velocity v_i and acceleration a_i from these position coordinates. 
 Using finite difference approximations, we are given some formulas for 
@@ -23,14 +23,14 @@ def kinematics(x, i, dt=1E-6):
     return v[i], a[i]
 
 def test_kinematics():
-    """tests kinematics function across three time inputs (0, .5, 1.5, 2.2),
+    """tests kinematics function across the time inputs from 0 to 10E-6,
     with x_i=Vt_i, where V is some constant. In this test, V=6. """
     dt=1E-6
     V=6
     x = []
-    for i in range(int(2.2/dt)+4):
+    for i in range(int(10.0E-6/dt)+4):
         # adds position values into x[]; splits a certain time range into
         # t/dt and calculates position x based on the formula
         x.append(V*i*dt)
-    return (kinematics(x, 0), kinematics(x, int(.5/dt)), kinematics(x, int(1.5/dt)), kinematics(x, int(2.2/dt)))
+    return (kinematics(x, int(5.0E-6)), kinematics(x, int(10.0E-6/dt)))
     assert True

@@ -42,4 +42,8 @@ def main():
     print "The pathlength for this n-dimensional vector is: ", path
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     main()
+=======
+    main()
+>>>>>>> d82592cb1b8d31afae7525759ce3e4934bc5ecc5
