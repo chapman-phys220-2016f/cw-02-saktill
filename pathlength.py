@@ -43,3 +43,26 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+### INSTRUCTOR COMMENTS
+# 
+# See previous problem for using docstrings correctly. In particular, saying "as above" makes no sense
+# except in source code. You want the docstrings to be sensible when using the help() command within
+# an interpreter.
+#
+# In pathlength you compute something before doing an input sanity check. Always check inputs first.
+# 
+# Rather than using indices, try to find ways to iterate over elements directly. For example,
+#   for xi, yi in zip(x,y):
+#     p1 += math.sqrt(xi**2 + yi**2)
+# This uses the zip() function to create a list of tuples of matches elements of x and y, then
+# unpacks the tuples into xi and yi in the for loop. This is cleaner to read and understand,
+# and is less prone to indexing errors.
+#
+# Again, assert takes a Boolean test directly.
+#
+# When citing things from StackOverflow, always cite the exact link. Treat it as a citation in a
+# paper - improper or missing citations are plagiarism.
+# If you are using hints from the web like this, make sure you can code the line yourself and
+# understand what every part of it does. Just copy-pasting it is not sufficient without understanding.
