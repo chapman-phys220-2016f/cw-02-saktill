@@ -42,13 +42,13 @@ def main():
     print "The pathlength for this n-dimensional vector is: ", path
 
 if __name__ == "__main__":
-<<<<<<< HEAD
+#<<<<<<< HEAD
     main()
-<<<<<<< HEAD
-=======
-    main()
->>>>>>> d82592cb1b8d31afae7525759ce3e4934bc5ecc5
-=======
+#<<<<<<< HEAD
+#=======
+#    main()
+#>>>>>>> d82592cb1b8d31afae7525759ce3e4934bc5ecc5
+#=======
 
 
 ### INSTRUCTOR COMMENTS
@@ -72,4 +72,4 @@ if __name__ == "__main__":
 # paper - improper or missing citations are plagiarism.
 # If you are using hints from the web like this, make sure you can code the line yourself and
 # understand what every part of it does. Just copy-pasting it is not sufficient without understanding.
->>>>>>> 26f9c8fbb1b42435e83a8265981663f65ceac658
+#>>>>>>> 26f9c8fbb1b42435e83a8265981663f65ceac658
